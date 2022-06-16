@@ -1,0 +1,131 @@
+body {
+    background-color:rgb(251,252,253) ;
+    font-family: "MuseoSans-300",sans-serif;
+}
+.box1 {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+}
+.heading1 {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(75,75,75);
+}
+.p1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(75,75,75);
+
+}
+.box2 {
+    margin: auto;
+    margin-top: 50px;
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    background: #fff;
+}
+.box2p1 {
+     margin-top: 45px;
+     margin-left: 50px;
+     font-size: 12px;
+    color: rgb(75,75,75);
+
+}
+.p1input {
+    width: 80%;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: -8px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    font-size: 15px;
+    padding: 7px;
+
+}
+.box2p2 {
+    
+     margin-left: 50px;
+     font-size: 12px;
+    color: rgb(75,75,75);
+
+}
+.p2input {
+    width: 80%;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: -8px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    font-size: 15px;
+}
+.box2p3 {
+    
+    margin-left: 50px;
+    font-size: 12px;
+    color: rgb(75,75,75);
+
+}
+.p3input {
+   width: 80%;
+   height: 40px;
+   margin-left: 50px;
+   margin-top: -8px;
+   border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    font-size: 15px;
+}
+.box2p4 {
+    
+    margin-left: 50px;
+    font-size: 12px;
+    color: rgb(75,75,75);
+
+}
+.p4input {
+   width: 80%;
+   height: 40px;
+   margin-left: 50px;
+   margin-top: -8px;
+   border-radius: 2px;
+   border: 1px solid #d8d8d8;
+   font-size: 15px;
+}
+.button {
+   
+   width: 180px;
+   height: 40px;
+   background-color: rgb(242,113,76);
+   border: none;
+   border-radius: 2px;
+   color: white;
+   font-size: 20px;
+   margin-left: 315px;
+
+
+}
+.box2p5 {
+margin-left:50px ;  
+font-size: 12px;
+line-height: 150%;
+color: #a4a4a4;
+padding: 15px 0;
+clear: both;
+}
+.last {
+color: #a4a4a4;
+font-size: 12px;
+text-align: center;
+margin-top: 100px;
+}
+
+form p{
+    margin: 8px;
+}

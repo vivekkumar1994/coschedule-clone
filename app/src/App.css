@@ -1,0 +1,18 @@
+.navbar{
+  display: flex;
+gap: 20px;
+padding: 5px;
+}
+.spacebetween{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 20px;
+  
+
+}
+.adjustment{
+  height: 32px;
+  width: 125px;
+  
+}
