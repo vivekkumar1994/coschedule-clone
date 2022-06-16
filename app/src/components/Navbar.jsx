@@ -1,3 +1,5 @@
+
+import "./navbar.css"
 import {
   Box,
   Flex,
@@ -39,6 +41,7 @@ export default function WithSubnavigation() {
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.900')}
         align={'center'}>
+        
           <a href = "/">
         
         <img
@@ -87,7 +90,7 @@ export default function WithSubnavigation() {
             fontWeight={400}
             variant={'link'}
             fontFamily={'heading'}
-            href="/login" >
+            href="/login">
             Sign In
           </Button>
           <Button as={'a'} fontSize={'15px'} fontWeight={400} variant={'link'} href= "/getdemo" >

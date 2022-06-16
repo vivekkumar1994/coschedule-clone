@@ -115,23 +115,7 @@ function Footer() {
             <br />
             <br />
 
-            <ListHeader>Products</ListHeader>
-            <Link href={'#'}>Marketing Calender</Link>
-            <Link href={'#'}>Marketing Suite</Link>
-            <Link href={'#'}>Headline Studio</Link>
-            <Link href={'#'}>Actionable Marketing Institute</Link>
-          </Stack>
-
-          <Stack align={'flex-start'}>
-            <ListHeader>WHY COSCHEDULE</ListHeader>
-            <Link href={'#'}>Customer Stories</Link>
-            <Link href={'#'}>Support</Link>
-            <Link href={'#'}>Product Announcements</Link>
-            <Link href={'#'}>Pricing</Link>
-            <br />
-            <br />
-            <br />
-            <ListHeader>WHY COSCHEDULE</ListHeader>
+            <ListHeader>Why Coschdule</ListHeader>
             <Link href={'#'}>Customer Stories</Link>
             <Link href={'#'}>Support</Link>
             <Link href={'#'}>Product Announcements</Link>
@@ -139,12 +123,29 @@ function Footer() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            <ListHeader>COMPANY</ListHeader>
+            <ListHeader>Company</ListHeader>
             <Link href={'#'}>About</Link>
             <Link href={'#'}>Jobs</Link>
             <Link href={'#'}>Press</Link>
-            <Link href={'#'}>Contact Us</Link>
+            <Link href={'#'}>Contact-us</Link>
             <Link href={'#'}>Affiliate Program</Link>
+            <br />
+            <br />
+            <br />
+            <ListHeader>Resorces</ListHeader>
+            <Link href={'#'}>Customer Stories</Link>
+            <Link href={'#'}>Support</Link>
+            <Link href={'#'}>Product Announcements</Link>
+            <Link href={'#'}>Pricing</Link>
+          </Stack>
+
+          <Stack align={'flex-start'}>
+            <ListHeader>TOPIC LIBRARIES</ListHeader>
+            <Link href={'#'}>Marketing</Link>
+            <Link href={'#'}>Marketing Ideas</Link>
+            <Link href={'#'}>Marketing Strategy</Link>
+            <Link href={'#'}>Content Marketing</Link>
+           
             <br />
 
             <Stack align={'flex-start'}>

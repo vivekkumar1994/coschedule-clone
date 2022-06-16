@@ -9,16 +9,20 @@ import Home from './Home';
 
 import Products from '../pages/Products';
 import Getdemo from '../pages/Getdemo';
-import PrivateRoutes from './router/PrivateRoutes'
-import Login from './Auth/Login';
-import LoginHome from './LoginHome/LoginHome';
+
+import SignInForm from '../pages/SignInForm';
+import SignUpForm from '../pages/SignUpForm';
+
 
 
 const Allroutes = () => {
   
   return (
     <div>
-      <Navbar />
+
+      <div style={{marginBottom : "200px"}}>
+      <Navbar/>
+      </div>
       
       <Routes>
       <Route path = "/" element ={<Home/>}/>
@@ -26,10 +30,10 @@ const Allroutes = () => {
         <Route path='/pricing' element={<Pricing />} />
         <Route path ="/getdemo" element = {<Getdemo/>}/>
       
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/login' element={<SignInForm/>}/>
         <Route path = "/Product" element={<Products/>}/>
-        <Route path = "/loginhome" element={<LoginHome/>}/>
-        <Route path = "/privateroutes" element = {<PrivateRoutes/>}/>
+        <Route path = "/login/signup"  element ={<SignUpForm/>}/>
+        
         
       </Routes>
       <Box></Box>
