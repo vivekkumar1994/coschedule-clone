@@ -1,0 +1,132 @@
+.cal {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 50px) repeat(5, 150px);
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.cal div {
+    border: 1px solid rgba(211, 211, 211, 0.347);
+    color:rgb(136,151,168);
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+
+
+.cal .day{
+    color: rgb(182,178,169);
+    color: black;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.nav{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247,247,247);
+    border-radius: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px 0px inset;
+}
+
+.nav>div:nth-child(1){
+    width: 56%;
+    /* border: 1px solid blue; */
+    text-align: right;
+    font-size: 20px;
+    margin-right: 2%;
+    color: black;
+  
+}
+.nav>div:nth-child(2){
+    width: 2%;
+    /* border: 1px solid teal; */
+    text-align: right;
+}
+.nav>div:nth-child(3){
+    width: 30%;
+    /* border: 1px solid green; */
+    text-align: right;
+}
+.nav>div:nth-child(4){
+    width: 5%;
+    /* border: 1px solid grey; */
+    text-align: left;
+    background-color: rgb(207,117,94);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 20px;
+}
+.nav>div:nth-child(5){
+    width: 5%;
+    border: 1px solid lightgray;
+    text-align: left;
+    background-color: rgb(247,247,247);
+    color:  rgb(182,178,169);
+    height: 20px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.top{
+    display: flex;
+}
+
+.top .left{
+    display: flex;
+    width: 50%;
+    /* border: 1px solid red; */
+    justify-content: left;
+    
+}
+.top .right{
+    display: flex;
+    width: 50%;
+    /* border: 1px solid blue; */
+    justify-content: right;
+}
+
+
+.left div{
+    margin-right: 3%;
+    
+}
+
+.left h2{
+    margin-top: -2%;
+}
+
+.right div{
+    margin-right: 3%;
+    
+}
+
+.right h2{
+    margin-top: -2%;
+}
+
+.top div{
+    cursor: pointer;
+}
+.nav div{
+    cursor: pointer;
+
+}
+
+.left div:hover{
+    color: teal;
+}
+.right div:hover{
+    color: teal;
+}
+.nav div:hover{
+    color: teal;
+}
